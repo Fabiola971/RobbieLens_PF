@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Manrope', sans-serif; */
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    line-height: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h2, h3, H4{
+    color: #A5B4FC;
+}
+h2{
+    font-family:'Montserrat', sans-serif;
+}
+
+h1{
+    display: none;
+}
+
+p{
+    color: #ffff;
+}
+
+section{
+    padding: 2em;
+}
+
+#home, #contact, #tarifs{
+    background-color: #1F2039;    
+}
+#contact h2, #projet h2, #tarifs h2{
+    text-align: center;
+   
+}
+
+button{
+    background: linear-gradient(#8E86B5, #ACAEED);
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+button a{
+    color: #ffff;;
+}
+
+.homePicture, .tarifContent{
+    border-right: 1px solid #A5B4FC;
+    border-bottom: 1px solid #A5B4FC;
+  
+}
+
+/* **************************HEADER */
+.navBar li{
+    margin: 2em;
+    list-style-type: none;
+    text-align: center;
+}
+
+/* ***************************SECTION HOME*/
+#home button{
+    width: 100%;
+}
+button a{
+    color: #ffff;
+}
+
+.homeDescription, h2, p, button{
+    margin-top: 20px;
+}
+
+.homePicture{ 
+    padding: 0 10px 10px ;
+}
+
+.homePicture img{
+    width: 100%;   
+}
+/* *******************************SECTION PROJET */
+#projet{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projet h2{
+    color: #1F2039;
+    margin-top: 0;
+}
+
+/* *******************************CONTACT */
+#contact{
+    position: relative;
+}
+
+/* #contact span{ */
+    /* position: absolute; */
+    /* top: 80px; */
+    /* left: 40%; */
+    /* margin-left: 40‰; */
+/* } */
+
+#contact label{
+    color: #ffff;
+    padding-bottom: 10px;
+}
+
+
+#contact button{
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#contact form{
+    margin-top: 100px;
+}
+/* ******************************TARIFS */
+.tarifContent{
+    padding: 50px 30px 50px 0;
+    margin: 50px 0;
+}
+
+.tarifContent p{
+    padding-bottom: 10px;
+}
+
+.tarifContent p, h4{
+  margin-top: 30px;  
+  margin-bottom: 30px;
+}
+
+.tarifContent span{
+    color: #ffff;
+    font-size: 0.7em;
+    font-weight: 100;   
+}
+
+/* ***************************FOOTER */
+footer{
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.socialNetWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img{
+    margin-bottom: 40px;
+}
