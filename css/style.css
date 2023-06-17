@@ -26,6 +26,13 @@ h1{
     display: none;
 }
 
+.navBar li{
+    list-style-type: none;
+    text-align: center;
+    margin: 2em
+}
+
+
 p{
     color: #ffff;
 }
@@ -37,9 +44,9 @@ section{
 #home, #contact, #tarifs{
     background-color: #1F2039;    
 }
+
 #contact h2, #projet h2, #tarifs h2{
-    text-align: center;
-   
+    text-align: center;   
 }
 
 button{
@@ -64,17 +71,15 @@ button a{
   
 }
 
+
 /* **************************HEADER */
-.navBar li{
-    margin: 2em;
-    list-style-type: none;
-    text-align: center;
-}
+
 
 /* ***************************SECTION HOME*/
 #home button{
     width: 100%;
 }
+
 button a{
     color: #ffff;
 }
@@ -107,12 +112,6 @@ button a{
     position: relative;
 }
 
-/* #contact span{ */
-    /* position: absolute; */
-    /* top: 80px; */
-    /* left: 40%; */
-    /* margin-left: 40‰; */
-/* } */
 
 #contact label{
     color: #ffff;
@@ -182,3 +181,4 @@ footer{
 footer img{
     margin-bottom: 40px;
 }
+
